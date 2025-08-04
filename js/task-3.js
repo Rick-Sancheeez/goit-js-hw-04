@@ -1,5 +1,5 @@
 const profile = {
-    username: "Jacob",
+  username: "Jacob",
   playTime: 300,
 
   changeUsername(newName) {
@@ -11,7 +11,7 @@ const profile = {
   },
 
   getInfo() {
-    return `${this.username} has ${this.playTimegit} active hours!`;
+    return `${this.username} has ${this.playTime} active hours!`;
   }
 };
 
